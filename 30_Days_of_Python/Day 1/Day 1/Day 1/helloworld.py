@@ -18,4 +18,7 @@ print(type(1 + 3j)) # complex number
 print(type("Nazir")) # str
 print(type([1, 2, 3])) # list
 print(type({"name": "Nazir"})) # Dictionary
-print(type((9.8, 3.14, 2.7 ))) # set
+print(type({9.8, 3.14, 2.7 })) # set
+print(type((2, "a", "b", 8))) # tuple
+print(type( 3 == 3)) # Bool
+print(type(3 >= 3)) # Bool
